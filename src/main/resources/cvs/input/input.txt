@@ -1,0 +1,13 @@
+Hospital Name$Address$City$Network
+APOORVA DIAGNOSTIC CENTRE$325, C.M.H. road, Indiranagar, bangalore$Bangalore$No
+Supriya hospital$15/1, Ayyappaswami Temple road, 7th cross , Prakash nagar,$Bangalore$No
+Chanre Rheumatology & Immunology Centre & Research$8th Main, 13th Cross, Malleswaram$Bangalore$No
+Dr.Ramesh Hospital & Piles & Proctology$Br.3 , Main guard cross road (Near safina plaza) , Shivajinagar$Bangalore$No
+Noble Vitiligo Clinic Private Limited$201/203, Money Point59, K. H Road (Double Road)$Bangalore$No
+PADMASHREE NURSING AND MATERNITY HOME$No,77, 4th Cross(Near Bus Terminus), R.P.C.Layout, Vijayanagar, Bangalore$Bangalore$No
+Dr.Vidyanands Surgery & Diagnostic Centre$2269, 2nd Cross, K R Road,Banashankari 2nd stage$Bangalore$No
+Renuka Nursing home$161-1, Balaji krupa , Laggere main road ,$Bangalore$No
+Magdum Hospital$Airport road,Br.3 , Main guard cross road (Near safina plaza) , 
+Shivajinagar$Bangalore$No
+Dr.Vidyanands Surgery & Diagnostic Centre 2$2269, 2nd Cross, K R Road,Banashankari 2nd stage$Bangalore$Yes
+Renuka Nursing home 2$161-1, Balaji krupa , Laggere main road ,$Bangalore$Yes
