@@ -33,14 +33,13 @@
 				<property name="lineTokenizer">
 					<bean
 						class="org.springframework.batch.item.file.transform.DelimitedLineTokenizer">
-						<property name="names" value="hospitalName,address,city,network" />
-						<property name="delimiter" value="$" />
+						<property name="names" value="data" />
+						<property name="delimiter" value="/n" />
 					</bean>
 				</property>
 				<property name="fieldSetMapper">
 					<bean
-						class="org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper">
-						<property name="prototypeBeanName" value="report" />
+						class="org.springframework.batch.item.file.mapping.ArrayFieldSetMapper">
 					</bean>
 				</property>
 			</bean>

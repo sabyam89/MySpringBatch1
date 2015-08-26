@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.saby</groupId>
-  <artifactId>MySpringBatch1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>com.saby</groupId>
+	<artifactId>MySpringBatch1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>MySpringBatch1</name>
-  <url>http://maven.apache.org</url>
+	<name>MySpringBatch1</name>
+	<url>http://maven.apache.org</url>
 
-<properties>
+	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>3.2.2.RELEASE</spring.version>
 		<spring.batch.version>3.0.1.RELEASE</spring.batch.version>
@@ -19,6 +19,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.0</version>
+		</dependency>
 
 		<!-- Spring Core -->
 		<dependency>
@@ -66,7 +71,7 @@
 			<artifactId>spring-batch-test</artifactId>
 			<version>${spring.batch.version}</version>
 		</dependency>
-		
+
 		<!-- Junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -78,5 +83,5 @@
 	</dependencies>
 	<build>
 		<finalName>spring-batch</finalName>
-			</build>
+	</build>
 </project>
